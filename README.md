@@ -1,6 +1,6 @@
 <!-- # MagicBokeh -->
 <div align=center>
-<img src="/data/lxshi/MagicBokeh-release/assets/pic/logo.png" width="200px">
+<img src="./assets/pic/logo.png" width="200px">
 </div>
 
 <h1 align="center">[CVPR 2026 Oral] Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework</h1>
