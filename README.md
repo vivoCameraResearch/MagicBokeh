@@ -111,14 +111,13 @@ We thank the authors of these projects for their great work and for making their
 If you find our work or code useful for your research, please cite:
 
 ```latex
-@misc{shi2026photorealisticefficientbokehrendering,
-      title={Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework}, 
-      author={Linxiao Shi and Siming Zheng and Zerong Wang and Hao Zhang and Jinwei Chen and Bo Li and Shifeng Chen and Peng-Tao Jiang},
-      year={2026},
-      eprint={2605.07429},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.07429}, 
+@InProceedings{Shi_2026_CVPR,
+    author    = {Shi, Linxiao and Zheng, Siming and Wang, Zerong and Zhang, Hao and Chen, Jinwei and Li, Bo and Chen, Shifeng and Jiang, Peng-Tao},
+    title     = {Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {231-240}
 }
 
 ```
