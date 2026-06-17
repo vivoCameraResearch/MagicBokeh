@@ -87,9 +87,9 @@ If the LDF model fails to correctly select the target object, you can manually c
 ```bash
 # Basic demo
 python demo.py \
-    --pretrained_model_name_or_path "$SD_DIR" \
-    --model_path "$CKPT_DIR" \
-    --depth_model_path "$DADEPTH_DIR"
+    --pretrained_model_name_or_path SD21BASE_PATH \
+    --model_path "./checkpoint/lora.pkl" \
+    --depth_model_path "path/to/depth_model/DAdepth.pth"
 ```
 
 
