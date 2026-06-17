@@ -65,7 +65,7 @@ python prepare_data.py \
 ```
 
 ### 2. Inference
-This command runs inference on a set of input images using the trained model.
+This command runs inference on a set of input images using the trained model. The [pretrained_model_name_or_path](https://huggingface.co/Manojb/stable-diffusion-2-1-base) and the [model_path](https://huggingface.co/LinxiaoShi/Magicbokeh) can be download in the huggingface.
 
 ```bash
 # Inference
@@ -75,8 +75,8 @@ python inference.py \
     --mask_dir "./test_data/mask" \
     --output_dir "./test_data/output" \
     --K 32 \
-    --pretrained_model_name_or_path "$SD_DIR" \
-    --model_path "$CKPT_DIR"
+    --pretrained_model_name_or_path SD21BASE_PATH \
+    --model_path "./checkpoint/lora.pkl"
 ```
 #### Arguments:
  * --K : Control the strength of the Bokeh effect.
